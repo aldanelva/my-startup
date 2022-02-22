@@ -33,11 +33,11 @@ Route::get('/pricing', function(){
 });
 
 Route::get('/blog-grids', function(){
-    return view('blog-grids');
+    return view('bloggrids');
 });
 
 Route::get('/blog-details', function(){
-    return view('blog-details');
+    return view('blogdetails');
 });
 
 Route::get('/signup', function(){
