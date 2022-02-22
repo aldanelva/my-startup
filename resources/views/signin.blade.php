@@ -4,19 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign Up | Play Tailwind</title>
+    <title>Sign In | Play Tailwind</title>
     <link
-      rel="shortcut icon"
-      href="{{asset('images/favicon.png')}}"
-      type="image/x-icon"
-    />
+    rel="shortcut icon"
+    href="{{asset('images/favicon.png')}}"
+    type="image/x-icon"
+  />
+  <link rel="stylesheet" href="{{asset('css/animate.css')}}" />
+  <link rel="stylesheet" href="{{asset('css/tailwind.css')}}" />
 
-    <link rel="stylesheet" href="{{asset('css/animate.css')}}" />
-    <link rel="stylesheet" href="{{asset('css/tailwind.css')}}" />
 
 
-    <!-- ==== WOW JS ==== -->
-    <script src="{{mix('js/app.js')}}"></script>
+  <!-- ==== WOW JS ==== -->
+  <script src="{{mix('js/app.js')}}"></script>
     <script>
       new WOW().init();
     </script>
@@ -318,6 +318,7 @@
                       >
                         Blog Details Page
                       </a>
+
                       <a
                         href="signup"
                         class="
@@ -526,27 +527,6 @@
               <form>
                 <div class="mb-6">
                   <input
-                    type="text"
-                    placeholder="Name"
-                    class="
-                      w-full
-                      rounded-md
-                      border
-                      bordder-[#E9EDF4]
-                      py-3
-                      px-5
-                      bg-[#FCFDFE]
-                      text-base text-body-color
-                      placeholder-[#ACB6BE]
-                      outline-none
-                      focus-visible:shadow-none
-                      focus:border-primary
-                      transition
-                    "
-                  />
-                </div>
-                <div class="mb-6">
-                  <input
                     type="email"
                     placeholder="Email"
                     class="
@@ -590,7 +570,7 @@
                 <div class="mb-10">
                   <input
                     type="submit"
-                    value="Sign Up"
+                    value="Sign In"
                     class="
                       w-full
                       rounded-md
@@ -696,28 +676,22 @@
                   </a>
                 </li>
               </ul>
-
-              <p class="text-base text-[#adadad] mb-4">
-                By creating an account you are agree with our
-                <a
-                  href="javascript:void(0)"
-                  class="text-primary hover:underline"
-                >
-                  Privacy
-                </a>
-                and
-                <a
-                  href="javascript:void(0)"
-                  class="text-primary hover:underline"
-                >
-                  Policy
-                </a>
-              </p>
-
+              <a
+                href="javascript:void(0)"
+                class="
+                  text-base
+                  inline-block
+                  mb-2
+                  text-[#adadad]
+                  hover:text-primary
+                "
+              >
+                Forget Password?
+              </a>
               <p class="text-base text-[#adadad]">
-                Already have an account?
-                <a href="signin" class="text-primary hover:underline">
-                  Sign In
+                Not a member yet?
+                <a href="signup" class="text-primary hover:underline">
+                  Sign Up
                 </a>
               </p>
 
