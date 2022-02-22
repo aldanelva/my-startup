@@ -2121,9 +2121,9 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 
     if (ud_header.classList.contains("sticky")) {
-      logo.src = "assets/images/logo/logo.svg";
+      logo.src = "images/logo/logo.svg";
     } else {
-      logo.src = "assets/images/logo/logo-white.svg";
+      logo.src = "images/logo/logo-white.svg";
     } // show or hide the back-top-top button
 
 
